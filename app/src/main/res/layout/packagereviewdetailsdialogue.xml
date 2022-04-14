@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="right"
+
+            android:drawableLeft="@drawable/ic_baseline_close_24"
+            android:drawableTint="@color/drawer_icon"
+            android:fontFamily="@font/lato"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="@color/drawer_icon"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:id="@+id/tvwallett"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Customer Reviews"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp" />
+
+        <View
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="@color/orange" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/galleryRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            tools:itemCount="2"
+            tools:listitem="@layout/singlereview" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@color/white"
+    android:padding="@dimen/_10sdp"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingRight="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_12sdp"
+    app:cardElevation="@dimen/_12sdp"
+    app:contentPadding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="left"
+                android:text="Add Money To Wallet"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp" />
+
+
+            <TextView
+                android:id="@+id/tv_itemName"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:fontFamily="@font/roboto"
+                android:gravity="left"
+                android:padding="@dimen/_2sdp"
+                android:text="Transaction Id: TRANS000312020"
+                android:textColor="#9a9a9a"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/dateandtimeTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_itemName"
+                android:fontFamily="@font/roboto"
+                android:gravity="left"
+                android:padding="@dimen/_2sdp"
+                android:text="28 Dec 2020     12:45 PM"
+                android:textColor="#9a9a9a"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/dateandtimeTv"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="#cbcbcb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_4sdp">
+
+                    <TextView
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Remark"
+                        android:textColor="#9a9a9a"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <TextView
+                        android:justificationMode="inter_word"
+                        android:id="@+id/remarkTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/dateandtimeTv"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="#cbcbcb" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_4sdp">
+
+                    <TextView
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Type"
+                        android:textColor="#9a9a9a"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_cancelOrder"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:background="@drawable/green_bg"
+                        android:fontFamily="@font/roboto"
+                        android:gravity="center"
+                        android:text="Credited"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/dateandtimeTv"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="#cbcbcb" />
+                <LinearLayout
+                    android:id="@+id/ll_top"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_4sdp">
+
+                    <TextView
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Credit"
+                        android:textColor="#9a9a9a"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <TextView
+                        android:id="@+id/withdrawalTv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:padding="@dimen/_4sdp"
+                        android:text="None"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15sdp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/dateandtimeTv"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="#cbcbcb" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_4sdp">
+
+                    <TextView
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Debit"
+                        android:textColor="#9a9a9a"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <TextView
+                        android:id="@+id/tvWithdrawlMoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto"
+                        android:padding="@dimen/_4sdp"
+                        android:text="None"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15sdp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/dateandtimeTv"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="#cbcbcb" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_4sdp">
+
+                    <TextView
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="left"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Status"
+                        android:textColor="#9a9a9a"
+                        android:textSize="@dimen/_15sdp" />
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/tvdeposit"
+                            android:background="@drawable/ic_baseline_check_circle_24"
+                            android:gravity="left" />
+
+                        <TextView
+                            android:id="@+id/tvtextdeposit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:layout_toRightOf="@+id/tvdeposit"
+                            android:fontFamily="@font/roboto"
+                            android:gravity="center_vertical"
+                            android:text="Success"
+                            android:textColor="@color/success"
+                            android:textSize="@dimen/_11sdp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

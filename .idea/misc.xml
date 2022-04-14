@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/drawable/blue.xml" value="0.127" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/drawable/blue_ui.xml" value="0.127" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/drawable/ic_checked.xml" value="0.1805" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/drawable/ic_checked__1_.xml" value="0.1805" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/drawable/ic_otpverify.xml" value="0.1605" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/activity_o_t_p__verification.xml" value="0.2772963604852686" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/activity_otp_verify.xml" value="0.25" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/activity_send_o_t_p.xml" value="0.17" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/addones.xml" value="0.16354166666666667" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/cartlist.xml" value="0.25" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/commentorder.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/dashboard_items.xml" value="0.25" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/data_vieww.xml" value="0.25" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fanicalcategoryadapter.xml" value="0.16" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_addones.xml" value="0.33" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_appliences_care_services.xml" value="0.22" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_check_out.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_contact_us.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_dashboard.xml" value="0.16770833333333332" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_finance_services.xml" value="0.14270833333333333" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_home.xml" value="0.16296296296296298" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_lowcontact.xml" value="0.12" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_profile.xml" value="0.184375" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_recent_booking.xml" value="0.33" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_referral_user.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_retry_payment.xml" value="0.16770833333333332" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_safe_health.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/fragment_time_slot.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/gridui.xml" value="0.5" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/image_slider_layout_item.xml" value="0.1515625" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/loginactivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/loginwithotp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/loginwithpassword.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/orderdetailsdialog.xml" value="0.25" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/orderpackage_rv.xml" value="0.25" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/packagereviewdetailsdialogue.xml" value="0.14" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/rating_alertbox.xml" value="0.18229166666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/rating_delete_alertbox.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/review_rating.xml" value="0.33" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/singlereview.xml" value="0.33" />
+        <entry key="..\:/Android sourcecode/webmingo/Servingo-devender/app/src/main/res/layout/success.xml" value="0.18229166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

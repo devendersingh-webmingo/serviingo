@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardBackgroundColor="@color/white"
+
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_5sdp"
+    app:contentPadding="5dp">
+
+
+    <LinearLayout
+        android:background="@drawable/allsideborder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_alignParentTop="true"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="@dimen/_20sdp"
+                android:id="@+id/ivImages"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_alignParentLeft="true"
+
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/ic__one" />
+
+            <TextView
+                android:id="@+id/choosefile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/ivImages"
+                android:padding="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Mess Less Experience"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/newText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choosefile"
+                android:layout_toRightOf="@+id/ivImages"
+                android:padding="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="Guaranteed Floor Cleanup after service completion"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/grey_light" />
+       <!-- <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />-->
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.AppliencesCareServicesFragment">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/billingTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/ll_pack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tvHeading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingRight="@dimen/_5sdp"
+                        android:text="Services Incuded On Package"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_16sdp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/tvHeading"
+                        android:src="@drawable/ic_chevron_right" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="@dimen/_130sdp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_100sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:background="@drawable/round_border_bg"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ac"
+                        android:visibility="gone" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewPackage"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+
+                        android:layout_marginTop="@dimen/_8sdp"
+                        tools:itemCount="2"
+                        tools:listitem="@layout/orderpackage_rv" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/recyclerViewPackage"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/allui"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/_10sdp"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="@dimen/_5sdp"
+                        app:contentPadding="0dp">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/allsideborder"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tvSubHeading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:text="Services Incuded On Package-- "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp"
+                                android:textStyle="bold"
+                                android:visibility="gone" />
+
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tvSubHeading"
+
+                                tools:itemCount="2"
+                                tools:listitem="@layout/cartlist" />
+
+
+                            <TextView
+                                android:id="@+id/tvSubTotal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/recyclerView"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto"
+                                android:text="Service Amount"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp" />
+
+
+                            <TextView
+                                android:id="@+id/tvsubmoney"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/recyclerView"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="right"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:text="\u20B9 0"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp" />
+
+                            <TextView
+                                android:id="@+id/ServiceDiscounttitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tvSubTotal"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto"
+                                android:text="Addon Amount"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/ServiceDiscountprice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tvSubTotal"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="right"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:text=" + \u20B9 0"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp"
+                                android:visibility="gone" />
+
+                            <RelativeLayout
+                                android:id="@+id/SubTotalRL"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/ServiceDiscounttitle"
+                                android:layout_gravity="center"
+
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="Sub Total Amount"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_16sdp" />
+
+
+                                <TextView
+                                    android:id="@+id/SubTotalTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:gravity="right"
+                                    android:text=" + \u20B9 0"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_16sdp" />
+
+                            </RelativeLayout>
+
+
+                            <TextView
+                                android:id="@+id/MembershipDiscountTV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/SubTotalRL"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto"
+                                android:text="Service Discount"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp" />
+
+
+                            <TextView
+                                android:id="@+id/MembershipDiscountAmountTV"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/SubTotalRL"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="right"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:text=" + \u20B9 0"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp" />
+
+                            <TextView
+                                android:id="@+id/tvDiscount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/MembershipDiscountTV"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto"
+                                android:text="Membership Discount"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp"
+                                android:visibility="gone" />
+
+
+                            <TextView
+                                android:id="@+id/tvrs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/MembershipDiscountAmountTV"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="right"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:text="+ \u20B9 0"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp"
+                                android:visibility="gone" />
+
+                            <RelativeLayout
+                                android:visibility="gone"
+                                android:id="@+id/couponrl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tvDiscount"
+                                android:layout_gravity="center"
+
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_marginTop="@dimen/_5sdp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:fontFamily="@font/roboto"
+                                    android:text=" Coupon Discount(-)"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_16sdp"
+                                    />
+
+
+                                <TextView
+
+                                    android:id="@+id/couponTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:gravity="right"
+                                    android:text=" + \u20B9 0"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_16sdp"
+                                    />
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/tvsafty"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/couponrl"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto"
+                                android:text="Total Discount (-)"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp" />
+
+
+                            <TextView
+                                android:id="@+id/tvrus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/couponrl"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="right"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:text=" + \u20B9 0"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_16sdp" />
+
+
+
+                            <RelativeLayout
+                                android:id="@+id/MembershipRL"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tvsafty"
+                                android:layout_gravity="center"
+
+                                android:layout_marginLeft="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp">
+
+                                <TextView
+                                    android:id="@+id/MembershipFeesTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_alignParentLeft="true"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="Membership Fee ( + )"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_16sdp"
+                                    android:visibility="gone" />
+
+
+                                <TextView
+                                    android:id="@+id/MembershipTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:gravity="right"
+                                    android:text=" + \u20B9 0"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_16sdp"
+                                    android:visibility="gone" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/safety_hygiene_feeRl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/MembershipRL"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="@dimen/_10sdp"
+
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:fontFamily="@font/roboto"
+                                    android:text="@string/safety_hygiene_fee"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_16sdp" />
+
+
+                                <TextView
+                                    android:id="@+id/safety_hygieneTV"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:gravity="right"
+                                    android:text=" + \u20B9 0"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_16sdp" />
+
+                            </RelativeLayout>
+
+
+                            <View
+                                android:id="@+id/view"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1sdp"
+                                android:layout_below="@+id/safety_hygiene_feeRl"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:background="@color/grey_" />
+
+
+                            <TextView
+                                android:id="@+id/tvgrandTotal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/view"
+                                android:layout_margin="@dimen/_10sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="Total Billed"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_18sdp" />
+
+                            <TextView
+                                android:id="@+id/tvvaluue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/view"
+                                android:layout_alignParentRight="true"
+                                android:layout_margin="@dimen/_10sdp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:paddingStart="@dimen/_10sdp"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:text="\u20B9 0"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_18sdp" />
+
+
+                            <View
+                                android:id="@+id/vvview"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1sdp"
+                                android:layout_below="@+id/tvvaluue"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:background="@color/grey_" />
+
+
+                        </RelativeLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:layout_margin="@dimen/_10sdp"
+                    android:id="@+id/ChooseTimeSlotsTV"
+                    android:layout_width="@dimen/_180sdp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/rect_light_blue"
+
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Choose Time Slots"
+                    android:textColor="@color/white"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/slottimeLL"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vvview"
+                android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:id="@+id/rel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:padding="@dimen/_8sdp">
+
+
+                        <ImageView
+                            android:id="@+id/openSlotBox"
+
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_alignParentRight="true"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/ic_time" />
+
+
+                        <TextView
+                            android:id="@+id/choosefile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/ivImages"
+                            android:fontFamily="@font/roboto_bold"
+                            android:padding="@dimen/_2sdp"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:text="Selected Date And Time Slot"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_17sdp" />
+
+
+                        <TextView
+                            android:id="@+id/dateSlot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/choosefile"
+                            android:layout_toRightOf="@+id/ivImages"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:text="The standard Lorem Ipsum? "
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/timeslott"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/dateSlot"
+                            android:layout_toRightOf="@+id/ivImages"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:text="Very good service. Would like to come again!"
+                            android:textColor="@color/black" />
+                    </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/tvChoosePaymentMethodLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="Choose Payment Method"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvChoosePaymentMethodLogin"
+                        android:layout_centerInParent="true"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/rdwallet"
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_gravity="right"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/allsideborder"
+                            android:checked="true"
+                            android:gravity="center"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:text="Wallet"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp" />
+
+                        <RadioButton
+                            android:id="@+id/rdallet"
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_gravity="right"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/allsideborder"
+                            android:gravity="center"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:text="COD"
+                            android:textAllCaps="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp" />
+                        <RadioButton
+                            android:id="@+id/rdOnline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_gravity="right"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:background="@drawable/allsideborder"
+                            android:gravity="center"
+                            android:paddingRight="@dimen/_4sdp"
+                            android:text="Razorpay "
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp" />
+                    </RadioGroup>
+
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/TV_Payment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@drawable/rect_light_blue"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:text="Proceed to Payment"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

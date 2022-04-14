@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.serviingo.serviingo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SERVIINGO"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.Rating.RatingActivity"/>
+        <activity android:name=".Activity.VandorFeedbackActivity" />
+        <activity android:name=".Activity.Auth.OtpVerifyActivity" />
+        <activity android:name=".Activity.RazorPay.RazorPaymentActivity" />
+        <activity android:name=".Activity.Forgetpassword.OTP_VerificationActivity" />
+        <activity android:name=".Activity.HomeActivity"/>
+        <activity android:name=".Activity.MyBookingActivity" />
+        <activity android:name=".Activity.Dashboard" />
+        <activity android:name=".view.SubsubCategory" />
+        <activity android:name=".Activity.FinancialServiceBank" />
+        <activity android:name=".Activity.FinancialServiceDetail" />
+        <activity android:name=".Activity.FinancialCategory" />
+        <activity android:name=".Activity.Addressbook" />
+        <activity android:name=".Activity.cancellationPolicy" />
+        <activity android:name=".Activity.TermsandCondition" />
+        <activity android:name=".Activity.servicesSubCategory" />
+        <activity android:name=".Activity.Privacypolicy" />
+        <activity android:name=".Activity.newActivity" />
+        <activity android:name=".Activity.ChangePasswordActivity" />
+        <activity android:name=".Activity.FAQ" />
+        <activity android:name=".Activity.covidTest" />
+        <activity android:name=".Activity.Success" />
+        <activity android:name=".Activity.CheckOut" />
+        <activity android:name=".Activity.AppliencesCareServices" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.VenderReg" />
+        <activity android:name=".Activity.ReviewRatingActivity" />
+        <activity android:name=".Activity.TestingAgreeCulturalUi" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.Auth.LoginActivity" />
+        <activity android:name=".Activity.ContactSupport" />
+        <activity android:name=".Activity.subCategoryActivities" />
+        <activity android:name=".Activity.RecentBooking" />
+        <activity android:name=".Activity.AboutUs" />
+        <activity android:name=".Activity.Auth.SignUpActivity" />
+        <activity android:name=".Activity.MyWalletActivity" />
+        <activity android:name=".Activity.WelcomeActivity" />
+        <activity android:name=".Activity.OTPactivity" />
+        <activity android:name=".Activity.primaryActivity" />
+        <activity android:name=".Activity.ChatActivity" />
+        <activity android:name=".Activity.Addones" />
+        <activity android:name=".Activity.ContactUsActivity" />
+        <activity android:name=".Activity.Lowcontact" />
+        <activity android:name=".Activity.SelectService" />
+        <activity android:name=".Activity.FinancialService" />
+        <activity android:name=".Activity.AddressActivity" />
+        <activity android:name=".Activity.Addtocart" />
+        <activity android:name=".Activity.RefundPolicy" />
+        <activity android:name=".Activity.SubcategoryActivity" />
+        <activity android:name=".Activity.Forgetpassword.SendOTP" />
+        <activity android:name=".Activity.Forgetpassword.CratePasswordActivity" />
+        <activity android:name=".Activity.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".Firebasee.MyFirebaseService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

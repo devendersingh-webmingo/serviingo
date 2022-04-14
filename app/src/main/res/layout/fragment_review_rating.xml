@@ -1,0 +1,277 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".Fragments.ReviewRatingFragment">
+
+
+    <RelativeLayout
+        android:layout_margin="@dimen/_2sdp"
+        android:id="@id/rl_topp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/head_lightBlue">
+
+
+        <ImageView
+            android:id="@+id/arrowIvv"
+
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:rotation="-90"
+            android:src="@drawable/arrow"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_dashboardd"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_toRightOf="@id/arrowIvv"
+            android:background="@color/head_lightBlue"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+
+            android:paddingLeft="@dimen/_15sdp"
+            android:text="Dashboard > My Rating &amp; Reviews "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@id/rl_top"
+        android:layout_below="@+id/rl_topp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/head_lightBlue">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/head_lightBlue"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_15sdp"
+            android:text="My Rating &amp; Reviews"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/icrecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_top"
+        android:layout_marginTop="44dp"
+        tools:itemCount="5"
+        tools:listitem="@layout/review_rating" />
+
+    <ScrollView
+        android:visibility="gone"
+        android:id="@+id/scroll_side_menu"
+        android:layout_below="@+id/rl_topp"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:animateLayoutChanges="true"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="@dimen/_5sdp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/background"
+            android:layout_below="@+id/tvPackage"
+            android:padding="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_12sdp"
+            app:cardElevation="@dimen/_5sdp"
+            app:contentPadding="0dp">
+
+            <LinearLayout
+                android:layout_margin="@dimen/_2sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_Dashboard"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bl"
+                    android:fontFamily="@font/lato"
+
+                    android:padding="@dimen/_8sdp"
+                    android:text="Dashboard"
+                    android:textColor="@color/slider"
+                    android:visibility="gone" />
+
+                <TextView
+
+                    android:textSize="@dimen/_12sdp"
+                    android:background="@drawable/allsideborder"
+
+
+
+                    android:layout_margin="@dimen/_2sdp"
+                    android:id="@+id/tv_myBooking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:padding="@dimen/_8sdp"
+                    android:text="My Booking"
+                    android:textColor="@color/black"
+                    />
+
+
+                <TextView
+
+                    android:layout_margin="@dimen/_2sdp"
+                    android:background="@drawable/allsideborder"
+
+                    android:id="@+id/tv_myProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:padding="@dimen/_8sdp"
+                    android:text="My Profile"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+
+                    android:background="@drawable/allsideborder"
+
+                    android:layout_margin="@dimen/_2sdp"
+                    android:maxLines="1"
+
+                    android:id="@+id/tv_myWallet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:padding="@dimen/_8sdp"
+                    android:text="My Wallet"
+                    android:textColor="@color/black_text"
+
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+
+                    android:background="@drawable/allsideborder"
+                    android:textColor="@color/black"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:maxLines="1"
+                    android:id="@+id/tv_changePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Change Password"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:background="@color/head_lightBlue"
+
+                    android:textColor="@color/white"
+
+                    android:maxLines="1"
+
+                    android:layout_margin="@dimen/_2sdp"
+
+                    android:id="@+id/tv_myReviews"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:gravity="left"
+                    android:padding="@dimen/_8sdp"
+                    android:text="My Reviews &amp; Rating"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:maxLines="1"
+
+
+                    android:background="@drawable/allsideborder"
+
+                    android:layout_margin="@dimen/_2sdp"
+
+                    android:id="@+id/tv_myAddressbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:padding="@dimen/_8sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="My Address Book"
+                    android:textColor="@color/black_text"
+                    />
+
+                <TextView
+
+                    android:background="@drawable/allsideborder"
+
+                    android:layout_margin="@dimen/_2sdp"
+                    android:maxLines="1"
+
+                    android:id="@+id/tv_mySupport"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:padding="@dimen/_8sdp"
+                    android:text="My Support"
+                    android:textColor="@color/black_text"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+
+                    android:background="@drawable/allsideborder"
+
+                    android:layout_margin="@dimen/_2sdp"
+                    android:maxLines="1"
+
+                    android:id="@+id/tv_referralDashboard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/lato"
+                    android:gravity="left"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Referral Dashboard"
+                    android:textColor="@color/black_text"
+                    android:textSize="@dimen/_12sdp" />
+                <TextView
+
+                    android:id="@+id/tv_Financial"
+                    android:textColor="@color/black_text"
+                    android:background="@drawable/allsideborder"
+                    android:text=" Membership "
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:fontFamily="@font/lato"
+                    android:gravity="left"
+                    android:maxLines="1"
+                    android:padding="@dimen/_8sdp"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</RelativeLayout>

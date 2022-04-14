@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.serviingo.serviingo"
+    android:versionCode="8"
+    android:versionName="1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SERVIINGO"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.serviingo.serviingo.Activity.Rating.RatingActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.VandorFeedbackActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.Auth.OtpVerifyActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.RazorPay.RazorPaymentActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.Forgetpassword.OTP_VerificationActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.HomeActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.MyBookingActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.Dashboard" />
+        <activity android:name="com.serviingo.serviingo.view.SubsubCategory" />
+        <activity android:name="com.serviingo.serviingo.Activity.FinancialServiceBank" />
+        <activity android:name="com.serviingo.serviingo.Activity.FinancialServiceDetail" />
+        <activity android:name="com.serviingo.serviingo.Activity.FinancialCategory" />
+        <activity android:name="com.serviingo.serviingo.Activity.Addressbook" />
+        <activity android:name="com.serviingo.serviingo.Activity.cancellationPolicy" />
+        <activity android:name="com.serviingo.serviingo.Activity.TermsandCondition" />
+        <activity android:name="com.serviingo.serviingo.Activity.servicesSubCategory" />
+        <activity android:name="com.serviingo.serviingo.Activity.Privacypolicy" />
+        <activity android:name="com.serviingo.serviingo.Activity.newActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.ChangePasswordActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.FAQ" />
+        <activity android:name="com.serviingo.serviingo.Activity.covidTest" />
+        <activity android:name="com.serviingo.serviingo.Activity.Success" />
+        <activity android:name="com.serviingo.serviingo.Activity.CheckOut" />
+        <activity android:name="com.serviingo.serviingo.Activity.AppliencesCareServices" />
+        <activity android:name="com.serviingo.serviingo.Activity.MainActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.VenderReg" />
+        <activity android:name="com.serviingo.serviingo.Activity.ReviewRatingActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.TestingAgreeCulturalUi" />
+        <activity android:name="com.serviingo.serviingo.Activity.ProfileActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.Auth.LoginActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.ContactSupport" />
+        <activity android:name="com.serviingo.serviingo.Activity.subCategoryActivities" />
+        <activity android:name="com.serviingo.serviingo.Activity.RecentBooking" />
+        <activity android:name="com.serviingo.serviingo.Activity.AboutUs" />
+        <activity android:name="com.serviingo.serviingo.Activity.Auth.SignUpActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.MyWalletActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.WelcomeActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.OTPactivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.primaryActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.ChatActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.Addones" />
+        <activity android:name="com.serviingo.serviingo.Activity.ContactUsActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.Lowcontact" />
+        <activity android:name="com.serviingo.serviingo.Activity.SelectService" />
+        <activity android:name="com.serviingo.serviingo.Activity.FinancialService" />
+        <activity android:name="com.serviingo.serviingo.Activity.AddressActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.Addtocart" />
+        <activity android:name="com.serviingo.serviingo.Activity.RefundPolicy" />
+        <activity android:name="com.serviingo.serviingo.Activity.SubcategoryActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.Forgetpassword.SendOTP" />
+        <activity android:name="com.serviingo.serviingo.Activity.Forgetpassword.CratePasswordActivity" />
+        <activity android:name="com.serviingo.serviingo.Activity.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name="com.serviingo.serviingo.Firebasee.MyFirebaseService"
+            android:stopWithTask="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.serviingo.serviingo.com.squareup.picasso"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.serviingo.serviingo.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/CheckoutTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

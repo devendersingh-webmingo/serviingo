@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvskip"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/allsideborder"
+        android:gravity="center"
+        android:paddingRight="@dimen/_4sdp"
+        android:text="Skip"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp" />
+
+
+    <ViewFlipper
+        android:id="@+id/viewflipper_registration"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include layout="@layout/loginwithotp" />
+
+        <include layout="@layout/loginwithpassword" />
+
+        <!--
+                <include layout="@layout/otpverifiying" />
+        -->
+    </ViewFlipper>
+
+</LinearLayout>

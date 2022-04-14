@@ -1,0 +1,2250 @@
+[
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_send_o_t_p.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_send_o_t_p.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pinterest_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\pinterest_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_vandortimeslotadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\vandortimeslotadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_back_select.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\back_select.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_google_play_big.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\google_play_big.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_fab_open.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\fab_open.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_calendar.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_light_blue_border.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\light_blue_border.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_orderdetailsdialog.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\orderdetailsdialog.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_review_rating_activity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\review_rating_activity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_profile.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\profile.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_hair_color.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\hair_color.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_full_chocolateroll.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\full_chocolateroll.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_overlay.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\bg_overlay.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_profilee.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\profilee.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_pagerimage.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\pagerimage.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_dashboard.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_homee.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_homee.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_signupactivity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\signupactivity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\splash.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_chevron_sign_to_right.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_chevron_sign_to_right.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_pngslider.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\pngslider.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_googleplay_new.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\googleplay_new.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_password.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\password.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_roundshape.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\roundshape.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu__1_.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_menu__1_.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_splashscreen.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\splashscreen.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_packageviewdetailsdialogue.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\packageviewdetailsdialogue.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_subsubcategory_item.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\subsubcategory_item.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_financial_service_bank.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_financial_service_bank.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_horizontal_packages.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\horizontal_packages.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_arrow_.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_arrow_.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragfaqui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragfaqui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_leaf_drawable.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\leaf_drawable.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_border_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\round_border_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_youtube.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_youtube.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_linkedin_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\linkedin_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_hair_color.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\hair_color.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_o_t_p__verification.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_o_t_p__verification.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_roolon.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\roolon.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_home_activity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\home_activity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_addtocartui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\addtocartui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_magnifying_glass.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_magnifying_glass.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_subcategory_activity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\subcategory_activity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_linkedin.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_linkedin.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_magnifying_glass.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_magnifying_glass.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_moredetail_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\moredetail_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_membershipplansadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\membershipplansadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_internetconnection.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\internetconnection.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_new_activity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\new_activity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_haircut_kids.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\haircut_kids.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_file.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\file.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_data_view.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\data_view.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_arrow__round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_arrow__round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ac.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ac.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_logindialog.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\logindialog.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_faqui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\faqui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_rotate_1.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\rotate_1.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_time.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_time.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_dashboard.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_notifications.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_money_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\add_money_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_close_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_close_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_border_rectangle.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\border_rectangle.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_data_vieww.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\data_vieww.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_add_moneywallet.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\add_moneywallet.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cart_plus.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_cart_plus.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_submitbutton.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\submitbutton.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_fadeout.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\fadeout.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_cartlist.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\cartlist.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_meter.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\meter.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_financialadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\financialadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pack1.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\pack1.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_cleaning.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\cleaning.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_phone.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_phone.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_addwalletamount_dialog.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\addwalletamount_dialog.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_crate_password.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_crate_password.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_review_rating.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\review_rating.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_close_round.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_close_round.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_check_circle_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_check_circle_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_right_round.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_right_round.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_star_foreground.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_star_foreground.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_otpverify.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_otpverify.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_contact_us.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_contact_us.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_allsideborder2.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\allsideborder2.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_profileactivity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\profileactivity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_reddrawable.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\reddrawable.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_time_slot.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_time_slot.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_email.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cart_minus.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_cart_minus.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_generate_tickets.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_generate_tickets.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_beard_moustache.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\beard_moustache.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_right_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_right_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_footer.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\footer.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_withoutmenu_header.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\withoutmenu_header.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_pack1.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\pack1.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_aboutus.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\aboutus.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_from_left.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\slide_from_left.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_razor_payment.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_razor_payment.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_recentbookingui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\recentbookingui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_grid_layout.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\grid_layout.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_newuserotpsend.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\newuserotpsend.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_address.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_address.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_share.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_share.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_meter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_meter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_viewimagemessage.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\viewimagemessage.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_support_tickets.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_support_tickets.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_appliences_care_services.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_appliences_care_services.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_profilefragment.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\profilefragment.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_timedateadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\timedateadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_arrow2.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\arrow2.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_commentorder.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\commentorder.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_welcomeactivity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\welcomeactivity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectanglemain.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\rectanglemain.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_check_out.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_check_out.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ee.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\ee.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_loginactivity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\loginactivity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_testingagreeculat.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\testingagreeculat.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic__one.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic__one.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_icon_awesome_chevron_right.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_icon_awesome_chevron_right.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_down_chevron.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_down_chevron.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_dollor.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\dollor.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_black_border.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\black_border.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_package_servicesrc.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\package_servicesrc.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_right.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_right.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_adapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\adapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_searchicon.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_searchicon.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_right_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_right_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ourstory.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\ourstory.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_icon_feather_arrow_right_circle.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_icon_feather_arrow_right_circle.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow__foreground.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_arrow__foreground.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_upload.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\upload.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_thirdsectionadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\thirdsectionadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_earn.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\earn.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_safe_health.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_safe_health.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_finalsignup.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\finalsignup.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_arrow_.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_arrow_.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_businessloan.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\businessloan.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_question_mark.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_question_mark.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_blue_ui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\blue_ui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_call.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_call.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_createpasword.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\createpasword.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_book.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_book.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_search_icon_black.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\search_icon_black.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_cutdrwable.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\cutdrwable.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_border_blue.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\border_blue.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_right_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_right_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_carloan.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\carloan.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_mask_group.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\mask_group.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_membership.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_membership.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_color_border_primary.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\color_border_primary.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_apply_now_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\apply_now_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_select_a_service.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\select_a_service.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_google_play.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\google_play.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_star.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_star.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_item_pagerspotlight.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\item_pagerspotlight.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_layoutadonseorder.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\layoutadonseorder.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_right_background.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_right_background.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_singlereview.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\singlereview.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_close_background.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_close_background.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_editnumber.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_editnumber.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_shape_drop_down_normal.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\shape_drop_down_normal.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_right.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\right.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_finacial.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_finacial.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_star_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_star_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_recent_grid.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\recent_grid.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_timer.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\timer.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_cancel.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\cancel.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_addressbook.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_addressbook.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_calender_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_calender_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_grid_pack.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\grid_pack.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_usr.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\usr.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_allsideborder2.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\allsideborder2.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_non_active_dot.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\non_active_dot.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_mywalletactivity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\mywalletactivity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_primary_activity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\primary_activity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_full_chocolateroll.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\full_chocolateroll.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_inverted.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\inverted.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_add_moneywalletonline.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\add_moneywalletonline.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_state_layout.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\state_layout.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_oswald.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\oswald.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_addressbook.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\addressbook.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_baseline_close_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_review_rating.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_review_rating.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_rupess.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\rupess.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_wallet_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\wallet_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_yellow.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\yellow.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_haircut_men.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\haircut_men.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_referal.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\referal.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_rating_alertbox.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\rating_alertbox.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_headneck_massage.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\headneck_massage.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_horizontal_category_ui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\horizontal_category_ui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_teko.ttf.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\teko.ttf"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_app_store_large.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\app_store_large.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_ssubcatui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\ssubcatui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_arrow__round.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_arrow__round.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_subcategory_content.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\subcategory_content.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sub_sub_categories.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_sub_sub_categories.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_refundprocessdetails.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\refundprocessdetails.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo1.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\logo1.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_star_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_star_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_vender_register.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\vender_register.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_arrow.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_star.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_star.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_circleshape.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\circleshape.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_right_white.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_right_white.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle_gray.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\circle_gray.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_buymembershipbottomsheet.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\buymembershipbottomsheet.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_close_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_close_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_inverted.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\inverted.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_home_loan.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\home_loan.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_adapterfaq.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\adapterfaq.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_to_left.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\slide_to_left.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_dot.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_dot.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_new_header.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\new_header.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_star.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_star.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_app_store_large.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\app_store_large.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_recent_booking.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_recent_booking.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_addtocart.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_addtocart.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_smiley.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\smiley.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_squada_one.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\squada_one.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sub_category.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_sub_category.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_trash.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_trash.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_imageview.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\imageview.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_rotate_1.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\rotate_1.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_close.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_close.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_cancel.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\cancel.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_chat_item_left.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\chat_item_left.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_arrow__round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_arrow__round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_quoted.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\quoted.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_my_booking.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_my_booking.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_active_dot.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\active_dot.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_adaptermywallet.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\adaptermywallet.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_right.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_right.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_right_foreground.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_right_foreground.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_photo_camera_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_photo_camera_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_mybookings_tabs.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_mybookings_tabs.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_green_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\green_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_twitter_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\twitter_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_logoo1.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\logoo1.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_appstore_new.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\appstore_new.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_app_store.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\app_store.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_my_member_ship.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_my_member_ship.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activitycontactus.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activitycontactus.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_checkout.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\checkout.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_chat.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\chat.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_lowcontact.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_lowcontact.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_roboto.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\roboto.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_category_ui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\category_ui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_review_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\review_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_membershipcontentadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\membershipcontentadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_profile.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_magnifying_glass.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_magnifying_glass.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_fb_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\fb_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_right.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_right.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_arrow__round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_arrow__round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_googleplay_new.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\googleplay_new.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_vandor_feedback.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_vandor_feedback.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_privacypolicy.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\privacypolicy.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_left.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\left.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_sky_blue_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\sky_blue_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_rectangle.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\rectangle.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_otpverifiying.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\otpverifiying.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_grey_border.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\grey_border.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_right_slide.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\right_slide.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_appliencescareservices.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\appliencescareservices.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_iv_restaurents.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\iv_restaurents.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_left.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\left.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_box_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\box_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_arrow_.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_arrow_.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_overlay.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\overlay.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_star_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_star_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_instagram_logo.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_instagram_logo.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_wallet.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\wallet.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_timeadapterslot.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\timeadapterslot.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradientfaq.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\gradientfaq.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_grey_bg_.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\grey_bg_.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_camera_blue.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\camera_blue.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_to_right.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\slide_to_right.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_down_arrow.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_down_arrow.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_fb_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\fb_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_change_password.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_change_password.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ee.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ee.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_chat_item_right.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\chat_item_right.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_financial.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\financial.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_pin.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_pin.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_refer_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\refer_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_google_play_big.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\google_play_big.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_makeyour_pack.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\makeyour_pack.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_group.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_group.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_unnamed.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\unnamed.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_dollor.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\dollor.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_arrow__round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_arrow__round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_retry_payment.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_retry_payment.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_pending.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_pending.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_search.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_profileheader.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\profileheader.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_flag.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\flag.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_loanproperty.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\loanproperty.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_customtab.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\customtab.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_nonveg.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\nonveg.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_notfound.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\notfound.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_lato.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\lato.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_addones.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\addones.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_allsideborder.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\allsideborder.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_packageitem.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\packageitem.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_adapterreview.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\adapterreview.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_star.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_star.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_fab_close.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\fab_close.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_cleaning.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\cleaning.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_close.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_close.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_teko_semibold.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\teko_semibold.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_arrow_.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_arrow_.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_otpverification.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\otpverification.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_haircut_kids.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\haircut_kids.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_right.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\background_right.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_home_loan.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\home_loan.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_friend.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\friend.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_quotation_marks.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_quotation_marks.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_right_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_right_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_quoted.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_quoted.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_rating.webp.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\rating.webp"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_referral_user.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_referral_user.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_left_arrow_in_circular_button.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_left_arrow_in_circular_button.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ourstory.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ourstory.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_right.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_right.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_rzp.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\rzp.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_cancellationpollicy.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\cancellationpollicy.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_google_play.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\google_play.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_star.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_star.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_rect_light_blue.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\rect_light_blue.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_mask_group.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\mask_group.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_viewimage.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\viewimage.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_makeyour_pack.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\makeyour_pack.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_close_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_profile.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_sbi.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\sbi.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_recentbookingui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\recentbookingui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_search_icon_black.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\search_icon_black.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_alertbox.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\alertbox.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_refer_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\refer_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_keyboard_arrow_down_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_keyboard_arrow_down_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_financialservice.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\financialservice.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_otp_verify.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_otp_verify.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_close_foreground.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_close_foreground.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_trash__1_.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_trash__1_.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_circleaero.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\circleaero.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_magnifying_glass.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_magnifying_glass.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_dashboard_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\dashboard_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_loginwithpassword.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\loginwithpassword.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_wax.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\wax.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_left_slide.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\left_slide.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_rollonwaxing.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\rollonwaxing.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fraghowitworks.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fraghowitworks.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_address_box.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\address_box.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_circleblue.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\circleblue.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragaboutsallonui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragaboutsallonui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_checked.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_checked.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_magnifying_glass.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_magnifying_glass.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_circl_rd.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\circl_rd.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_star.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\star.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_nofound.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\nofound.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_close_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_close_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_rating_delete_alertbox.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\rating_delete_alertbox.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_close_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_close_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_progress_view.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\custom_progress_view.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_app_store.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\app_store.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_beard_moustache.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\beard_moustache.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_termsui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\termsui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_location.webp.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_location.webp"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shining.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_shining.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_black_round_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\black_round_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_close.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_close.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_google_play_large.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\google_play_large.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_haircut_men.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\haircut_men.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow__background.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_arrow__background.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_vender_reg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_vender_reg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle_white.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\circle_white.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_chat.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_success.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\success.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_right.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_right.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_financial_category.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_financial_category.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_edittext_bg.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\edittext_bg.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_galleryadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\galleryadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_finance_service_detail.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_finance_service_detail.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_middleslider.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\middleslider.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_uncheck.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\uncheck.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_grid_pack1.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\grid_pack1.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_finance_sub_categories.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_finance_sub_categories.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_supporttickets.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\supporttickets.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_from_right.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\slide_from_right.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_twitter_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\twitter_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_keyboard_arrow_right_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_keyboard_arrow_right_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_appstore_new.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\appstore_new.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_flag.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\flag.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_member_ship_payment_history.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_member_ship_payment_history.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_logooo.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\logooo.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_recent_booking.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\recent_booking.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_blue.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\rounded_blue.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_edit_adsressbook.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\edit_adsressbook.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_smiley.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\smiley.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_star_background.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_star_background.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fanicalcategoryadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fanicalcategoryadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_meterr.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_meterr.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_promocodee.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_promocodee.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_star_round.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_star_round.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_circleaero.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\circleaero.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_faqadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\faqadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_info.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_info.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_spinner_background.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_otpsubmitbotton.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\otpsubmitbotton.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_subsubadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\subsubadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_subcategory_image.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\subcategory_image.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_referraluseradapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\referraluseradapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_navigate_next_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_navigate_next_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_usr.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\usr.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_teko_medium.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\teko_medium.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_otpactivity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\otpactivity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_left_arrow_grey.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\left_arrow_grey.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_senddilog.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_senddilog.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_finacialimage.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\finacialimage.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_wax.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\wax.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_addones.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_addones.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_checked__1_.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_checked__1_.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_orderpackage_rv.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\orderpackage_rv.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_telex.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\telex.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_close.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_close.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_google_play_large.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\google_play_large.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_needloan.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\needloan.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_lowcontact.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\lowcontact.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_address.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_addressadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\addressadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_howitworking.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\howitworking.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_dashboard_items.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\dashboard_items.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_pack.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\pack.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_item_pagermiddle_upper.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\item_pagermiddle_upper.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_recentbookingdapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\recentbookingdapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_chevron_right.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_header_layout.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\header_layout.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_packagereviewdetailsdialogue.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\packagereviewdetailsdialogue.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_info_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_pagerui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\pagerui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_back_tabs.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\back_tabs.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_allsideborderblue.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\allsideborderblue.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_blue.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\blue.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_edit.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_star_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_star_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_membershiphistoryadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\membershiphistoryadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_loanproperty.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\loanproperty.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_otpsubmitbotton.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\otpsubmitbotton.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_right_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_right_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_services_sub_category.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_services_sub_category.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_rating.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_rating.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ac.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\ac.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_star.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_star.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_lens_24.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_baseline_lens_24.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_financial.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\financial.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_makepackagelayout.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\makepackagelayout.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_carloan.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\carloan.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_refund_policy.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\refund_policy.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_loginwithotp.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\loginwithotp.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_edittextbox.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\edittextbox.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pagerimage.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\pagerimage.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_spleshlogo.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\spleshlogo.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_businessloan.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\businessloan.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_close.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-mdpi\\ic_close.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_gridui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\gridui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_right.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_right.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_magnifying_glass.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_magnifying_glass.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_roolon.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\roolon.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_needloan.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\needloan.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_right.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\right.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_righttick.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\righttick.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_shaded_circle.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\shaded_circle.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_meter.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\meter.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_pinterest_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\pinterest_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_arrow_.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_arrow_.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_splash.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\splash.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_blackborder.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\blackborder.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_changepassword.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\changepassword.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_contactsupport.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\contactsupport.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_financialservice_detail.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\financialservice_detail.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\font_roboto_bold.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\font\\roboto_bold.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_star_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-hdpi\\ic_star_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sbi.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\sbi.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_iv_restaurents.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\iv_restaurents.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_magnifying_glass.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_magnifying_glass.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_sendotp.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_sendotp.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_mainactivity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\mainactivity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_grey_border_box.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\grey_border_box.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_background_left.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\background_left.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_incomplete_booking.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_incomplete_booking.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_finance_service_enquirybottomsheet.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\finance_service_enquirybottomsheet.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_user1.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_user1.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_arrow_.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_arrow_.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_phone_call__1_.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_phone_call__1_.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_rollonwaxing.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\rollonwaxing.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_image_slider_layout_item.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\image_slider_layout_item.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_dotted_line.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\dotted_line.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_globalloader.gif.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\globalloader.gif"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cart.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_itemviewpagerservice.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\itemviewpagerservice.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_allsideborder.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\allsideborder.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_arrow.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_subcategory.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_subcategory.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_finance_services.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_finance_services.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_headneck_massage.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\headneck_massage.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_allui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\allui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_user.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\ic_user.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_reviews_ui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\reviews_ui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\anim_fadein.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\anim\\fadein.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_pack.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\pack.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_logo.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_unnamed.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\unnamed.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_linkedin_icon.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\linkedin_icon.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_arrow__round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xhdpi\\ic_arrow__round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_covidtest.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\covidtest.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_my_wallet.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_my_wallet.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_spinner_resource.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\spinner_resource.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_camera_blue.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable-v24\\camera_blue.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_close.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_close.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_chatactivity.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\chatactivity.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_about_us.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\fragment_about_us.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_himsaloonui.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\himsaloonui.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_logoo.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\logoo.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_supportadapter.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\supportadapter.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_notfound.jpg.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\notfound.jpg"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\drawable_drop.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\drawable\\drop.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_subsub_category.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\activity_subsub_category.xml"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_close_round.png.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_close_round.png"
+    },
+    {
+        "merged": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\build\\intermediates\\merged_res\\debug\\layout_incompletebooking_items.xml.flat",
+        "source": "E:\\Android sourcecode\\webmingo\\Servingo-devender\\app\\src\\main\\res\\layout\\incompletebooking_items.xml"
+    }
+]

@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".Fragments.ReviewRatingFragment">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+
+        app:cardBackgroundColor="@color/white"
+
+        app:cardCornerRadius="@dimen/_5sdp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/LLrevive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/star"
+                        app:tint="#009609" />
+
+                    <TextView
+                        android:id="@+id/tvdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="  "
+                        android:textColor="#009609"
+                        android:textSize="@dimen/_15sdp" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/addressTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/choosefile"
+                    android:layout_toRightOf="@+id/ivImages"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text=""
+                    android:textColor="@color/grey_l"
+                    android:textSize="@dimen/_12sdp" />
+                <TextView
+                    android:id="@+id/reviews_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_13sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/reviews_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#80000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/llBookingCount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/_5sdp"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/BookingnumberTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="00 "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bookings done in last 1 year"
+                    android:textColor="@color/grey_l"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/icrecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:itemCount="5"
+        tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:listitem="@layout/adapterreview" />
+
+
+</LinearLayout>

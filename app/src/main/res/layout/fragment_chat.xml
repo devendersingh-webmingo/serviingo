@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragments.ChatFragment"
+    android:background="@color/bgcolor"
+    android:layout_marginBottom="@dimen/_20sdp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvheader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@+id/header"
+        android:background="@color/purple_700"
+        android:drawableRight="@drawable/ic_baseline_info_24"
+        android:drawableTint="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:text="Chat History"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvheader"
+        android:layout_above="@id/layout_chatbox"
+        android:orientation="vertical">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_topp">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                tools:listitem="@layout/chat_item_left"
+                tools:itemCount="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+
+
+    <!-- A horizontal line between the chatbox and RecyclerView -->
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="0dp"
+        android:background="#dfdfdf" />
+
+    <LinearLayout
+        android:layout_margin="@dimen/_4sdp"
+        android:id="@+id/layout_chatbox"
+        android:layout_width="match_parent"
+        android:background="@drawable/allui"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:minHeight="48dp"
+
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:id="@+id/iv_camera"
+            android:layout_width="64dp"
+
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/ic_baseline_photo_camera_24"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/edittext_chatbox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="48dp"
+            android:background="@null"
+
+            android:layout_weight="1"
+            android:hint="Type a message"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/purple_700"
+            android:textColorHint="@color/purple_700"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:id="@+id/ivSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@drawable/blue_ui"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Send"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

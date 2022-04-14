@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tvAc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerViewPackage"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/ll"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="@dimen/_5sdp"
+        android:text="AC Repair "
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAc"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_5sdp"
+        android:text="\u20B9 143"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp" />
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAc"
+        android:layout_toRightOf="@+id/tv">
+
+        <View
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@color/grey_"
+
+            />
+
+        <TextView
+            android:id="@+id/tvdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_amt"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center_vertical"
+            android:padding="@dimen/_5sdp"
+            android:text="\u20B9 270"
+            android:textColor="@color/grey_"
+            android:textSize="@dimen/_14sdp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAc"
+        android:layout_toRightOf="@+id/fl"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_5sdp"
+        android:text="0% OFF "
+        android:textColor="@color/green"
+        android:textSize="@dimen/_14sdp" />
+    <View
+        android:layout_margin="@dimen/_2sdp"
+        android:layout_below="@+id/tvv"
+        android:background="@color/bl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp">
+
+    </View>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_5sdp"
+
+        android:background="@drawable/color_border_primary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/_2sdp">
+
+        <ImageView
+            android:id="@+id/updateCartDecrease"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_cart_minus"
+            android:visibility="invisible"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/quentityTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/updateCartIncrease"
+
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_cart_plus"
+            android:visibility="invisible"
+            app:tint="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingRight="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_8sdp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp">
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivImages"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/unnamed" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#28a745"
+                android:fontFamily="@font/roboto"
+                android:padding="@dimen/_5sdp"
+                android:text="Open"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp" />
+
+
+            <TextView
+                android:id="@+id/choosefile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ivImages"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="@dimen/_2sdp"
+                android:text="John Deo"
+                android:textColor="#757575"
+                android:textSize="@dimen/_14sdp" />
+
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choosefile"
+                android:layout_toRightOf="@+id/ivImages"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="The standard Lorem Ipsum? "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/dateandtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message"
+                android:layout_toRightOf="@+id/ivImages"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateandtime"
+                android:layout_toRightOf="@+id/ivImages"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/QueryModuleTV"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="Query Module	"
+                    android:textColor="#B3000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/QuerySubjectTv"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="Query Subject		"
+                    android:textColor="#B3000000"
+                    android:textSize="@dimen/_10sdp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@+id/rel"
+            android:background="@color/grey_light"
+
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rel"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+
+                android:id="@+id/Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#f5f5f5"
+                android:padding="@dimen/_8sdp"
+                android:paddingLeft="@dimen/_2sdp"
+                android:text="Medium "
+
+                android:textColor="#757575"
+                android:textSize="@dimen/_10sdp" />
+
+            <ImageView
+                android:id="@+id/iv_arrow"
+
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_toRightOf="@+id/Medium"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+            <TextView
+                android:visibility="gone"
+
+                android:id="@+id/LastReplied"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_arrow"
+                android:background="#f5f5f5"
+                android:padding="@dimen/_8sdp"
+                android:paddingLeft="@dimen/_2sdp"
+                android:text="Last Replied : 12:00PM "
+
+                android:textColor="#757575"
+                android:textSize="@dimen/_10sdp" />
+
+            <ImageView
+                android:id="@+id/iv_arrow2"
+                android:visibility="gone"
+
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_toRightOf="@+id/LastReplied"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+            <TextView
+
+                android:id="@+id/ticketid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_arrow2"
+                android:background="#f5f5f5"
+                android:maxLines="1"
+                android:padding="@dimen/_8sdp"
+                android:paddingLeft="@dimen/_2sdp"
+                android:text="Ticket ID: #83434 "
+
+                android:textColor="#757575"
+                android:textSize="@dimen/_10sdp" />
+
+            <ImageView
+                android:id="@+id/iv_arrow3"
+
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_toRightOf="@+id/ticketid"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+
+
+            <ImageView
+                android:id="@+id/openchat"
+
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_toRightOf="@+id/iv_arrow3"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/chat" />
+            <ImageView
+                android:id="@+id/viewimagee"
+
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_toRightOf="@+id/openchat"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                />
+
+            <ImageView
+                android:id="@+id/viewimage"
+
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_toRightOf="@+id/viewimagee"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/viewimage"
+                app:tint="@color/head_lightBlue" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

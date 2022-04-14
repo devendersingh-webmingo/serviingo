@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_gravity="center"
+    android:background="#B3F6F6F6"
+    android:gravity="center"
+
+    >
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/back"
+        android:padding="@dimen/_8sdp"
+        android:background="#B3F6F6F6"
+
+        android:layout_width="match_parent"
+        android:fontFamily="@font/roboto_bold"
+        android:drawablePadding="@dimen/_8sdp"
+        android:drawableLeft="@drawable/arrow2"
+        android:textSize="@dimen/_18sdp"
+        android:text="Forget Password"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/back"
+        android:background="#B3F6F6F6"
+
+
+        android:foregroundGravity="center"
+
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:background="#B3F6F6F6"
+
+            android:orientation="vertical"
+
+           >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:padding="@dimen/_8sdp"
+                android:id="@+id/LinnearLayoutLogo"
+
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_otpverify"
+                tools:ignore="RtlHardcoded">
+
+            </ImageView>
+            <TextView
+
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:id="@+id/d_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/otp_verification"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <TextView
+                android:id="@+id/d_tax_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+
+                android:text="@string/enter_the_6_digit_otp_received_on_your_mobile_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:padding="@dimen/_5sdp"
+
+                android:orientation="horizontal">
+
+
+                <com.chaos.view.PinView
+                    android:id="@+id/pinview"
+                    style="@style/PinWidget.PinView"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:cursorVisible="true"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:itemBackground="@color/grey"
+                    app:cursorColor="@color/black"
+                    app:hideLineWhenFilled="true"
+                    app:itemCount="4"
+                    app:itemHeight="@dimen/_44sdp"
+                    app:itemRadius="5dp"
+                    app:itemWidth="@dimen/_44sdp"
+                    app:lineColor="@color/textColor_blue"
+
+
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/resendotp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+
+                android:text="Resend"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="normal" />
+
+            <TextView
+
+                android:id="@+id/otpContinue"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:padding="@dimen/_5sdp"
+
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/otpsubmitbotton"
+                android:gravity="center"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Don't have an account"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text=" Create an Account"
+            android:textColor="@color/textColor_blue"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@color/bgcolor"
+    android:orientation="vertical">
+
+
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="@dimen/_5sdp"
+        app:contentPadding="0dp">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_50sdp"
+                android:drawableLeft="@drawable/ic_baseline_close_24"
+                android:drawableTint="@color/drawer_icon"
+                android:fontFamily="@font/lato"
+                android:layout_gravity="right"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textColor="@color/drawer_icon"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tvwallett"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/galleryRV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                tools:itemCount="2"
+                tools:listitem="@layout/galleryadapter" />
+            <TextView
+                android:id="@+id/tvwallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:fontFamily="@font/roboto_bold"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:visibility="gone"
+
+                        android:layout_gravity="center"
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_200sdp"
+                        android:src="@drawable/nofound"
+
+                        android:scaleType="fitXY"
+
+                      />
+
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:visibility="gone"
+                        android:id="@+id/youtube_player_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:autoPlay="false"
+                        app:showFullScreenButton="true"
+                        app:showSeekBar="true"
+                        app:showVideoCurrentTime="true"
+                        app:showVideoDuration="true" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+
+
+                android:padding="@dimen/_10sdp"
+
+                android:layout_margin="5dp"
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#232323"
+                android:fontFamily="@font/roboto"
+                android:textAlignment="textStart"
+                android:text=""
+                />
+            </androidx.core.widget.NestedScrollView>
+
+        </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

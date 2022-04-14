@@ -1,0 +1,227 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="@dimen/_5sdp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:src="@drawable/nofound" />
+
+            <TextView
+                android:id="@+id/tvdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text=" Service Date and Time"
+                android:textColor="@color/grey_"
+                android:textSize="@dimen/_9sdp" />
+
+            <TextView
+                android:id="@+id/tvhead"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/profile_image"
+                android:maxLines="3"
+                android:text="Full Chocolate Roll-on Waxing"
+                android:textColor="@color/black_"
+                android:textSize="@dimen/_13sdp" />
+
+            <TextView
+                android:id="@+id/tvtext"
+                android:layout_width="@dimen/_160sdp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvhead"
+                android:layout_toRightOf="@+id/profile_image"
+                android:maxLines="3"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="Full Chocolate roll on Waxing Full Chocolate "
+                android:textColor="@color/grey_"
+                android:textSize="@dimen/_9sdp" />
+
+            <TextView
+                android:id="@+id/tvordernumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtext"
+                android:layout_toRightOf="@+id/profile_image"
+                android:maxLines="3"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="gdfgdfd"
+                android:textColor="@color/grey_"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvvendorname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvordernumber"
+                android:layout_toRightOf="@+id/profile_image"
+                android:maxLines="3"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text=""
+                android:textColor="@color/grey_"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvdate"
+                android:layout_alignParentRight="true"
+                android:text="11:35 AM"
+                android:textColor="@color/grey_"
+                android:textSize="@dimen/_9sdp" />
+
+            <TextView
+                android:id="@+id/tvwallet"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_below="@+id/tvTime"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="bottom"
+                android:text="150"
+                android:textColor="@color/black_"
+                android:textSize="@dimen/_22sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_below="@+id/tvTime"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_toLeftOf="@id/tvwallet"
+                android:gravity="bottom"
+                android:text="\u20B9 "
+                android:textColor="@color/black_"
+                android:textSize="@dimen/_25sdp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvvendorname"
+
+                android:layout_marginTop="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/tvcomplete"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Completed"
+                    android:textColor="@color/green" />
+
+                <TextView
+                    android:id="@+id/tvEditReview"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="@dimen/_5sdp"
+
+                    android:background="@drawable/sky_blue_bg"
+                    android:gravity="center"
+                    android:textSize="@dimen/_12sdp"
+
+                    android:text="View Rating &amp; Review"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/RateReview"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/sky_blue_bg"
+
+                    android:gravity="center"
+                    android:text="@string/rate_review"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvdelete"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/tvEditReview"
+                    android:background="@drawable/reddrawable"
+                    android:gravity="center"
+                    android:text="Delete"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LLOrder"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_toRightOf="@+id/profileImage"
+                android:text="Orders you might be interested reviewing"
+                android:textColor="@color/black_"
+                android:textSize="@dimen/_16sdp" />
+
+            <View
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/light_blue" />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_gravity="right"
+            android:id="@+id/imagenext"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_icon_feather_arrow_right_circle"
+            android:padding="@dimen/_8sdp" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

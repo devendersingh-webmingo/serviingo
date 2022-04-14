@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/root_lay"
+        layout="@layout/new_header"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"/>
+
+    <RelativeLayout
+        android:id="@+id/relrecy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/root_lay">
+
+
+            <ImageView
+                android:id="@+id/iv_lefyt"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleX=".6"
+                android:scaleY=".6"
+                android:src="@drawable/ic_left_arrow_in_circular_button" />
+
+            <ImageView
+                android:id="@+id/iv_ryt"
+                android:scaleX=".6"
+                android:scaleY=".6"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_chevron_sign_to_right"
+                />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/horizontalrecy"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:paddingLeft="@dimen/_25sdp"
+            android:paddingRight="@dimen/_25sdp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relrecy">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="@dimen/_5sdp"
+                android:background="@color/purple_700"
+                android:text="Low Contact Roll on Waxing"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/verticalrecy"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/_25sdp"
+                android:paddingRight="@dimen/_25sdp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scroll_side_menu"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:animateLayoutChanges="true"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPackage"
+            android:layout_margin="@dimen/_10sdp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/_10sdp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="@dimen/_5sdp"
+            app:contentPadding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlDashBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/tvUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/imageView4"
+                        android:gravity="center|left"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="Dashboard"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13sdp" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="@color/grey_light" />
+
+                <RelativeLayout
+                    android:id="@+id/rr_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_home1"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_home1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="My Booking"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rr_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_category"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_category"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="My Profile"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rr_recharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_recharge"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_recharge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_recharge"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="My Wallet"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rrInsurance"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_insurance"
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_12sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_insurance"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_insurance"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="Logout"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rr_About"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/iv_about"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_About"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_about"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="About"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rr_Contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/iv_Contact"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_Contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_Contact"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="Contact"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rr_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/iv_register"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_register"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="Register as a Professional"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rrsignin"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/iv_signin"
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_12sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_signin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_signin"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:text="Login/Sign Up"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11sdp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</RelativeLayout>

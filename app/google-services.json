@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "712894317968",
+    "project_id": "serviingo-7c6c1",
+    "storage_bucket": "serviingo-7c6c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712894317968:android:aaa246ee4f623e3274df15",
+        "android_client_info": {
+          "package_name": "com.serviingo.serviingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712894317968-e7oi4lmpru5ubqu1qpl7ulg3ttpm741b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxnQ4y74nifHDSdsU6Fa1qvujqkxVjDUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712894317968-e7oi4lmpru5ubqu1qpl7ulg3ttpm741b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

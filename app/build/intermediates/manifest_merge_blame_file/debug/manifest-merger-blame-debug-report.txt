@@ -1,0 +1,602 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.serviingo.serviingo"
+4    android:versionCode="8"
+5    android:versionName="1.8" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:6:5-67
+11-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:7:5-79
+12-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:8:5-65
+13-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:8:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:9:5-80
+14-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:10:5-66
+15-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:10:22-63
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:5-68
+16-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+17-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:12:5-93:19
+21        android:allowBackup="true"
+21-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:13:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.1] C:\Users\Temz\.gradle\caches\transforms-3\990c76cf9b61699c9e2a9fdde6b6e8e4\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:hardwareAccelerated="true"
+24-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:14:9-43
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:15:9-43
+26        android:label="@string/app_name"
+26-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:16:9-41
+27        android:largeHeap="true"
+27-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:17:9-33
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:18:9-54
+29        android:supportsRtl="true"
+29-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:19:9-35
+30        android:theme="@style/Theme.SERVIINGO"
+30-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:20:9-47
+31        android:usesCleartextTraffic="true" >
+31-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:21:9-44
+32        <activity android:name="com.serviingo.serviingo.Activity.Rating.RatingActivity" />
+32-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:22:9-67
+32-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:22:19-65
+33        <activity android:name="com.serviingo.serviingo.Activity.VandorFeedbackActivity" />
+33-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:23:9-69
+33-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:23:19-66
+34        <activity android:name="com.serviingo.serviingo.Activity.Auth.OtpVerifyActivity" />
+34-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:24:9-69
+34-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:24:19-66
+35        <activity android:name="com.serviingo.serviingo.Activity.RazorPay.RazorPaymentActivity" />
+35-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:25:9-76
+35-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:25:19-73
+36        <activity android:name="com.serviingo.serviingo.Activity.Forgetpassword.OTP_VerificationActivity" />
+36-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:26:9-86
+36-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:26:19-83
+37        <activity android:name="com.serviingo.serviingo.Activity.HomeActivity" />
+37-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:27:9-58
+37-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:27:19-56
+38        <activity android:name="com.serviingo.serviingo.Activity.MyBookingActivity" />
+38-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:28:9-64
+38-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:28:19-61
+39        <activity android:name="com.serviingo.serviingo.Activity.Dashboard" />
+39-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:29:9-56
+39-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:29:19-53
+40        <activity android:name="com.serviingo.serviingo.view.SubsubCategory" />
+40-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:30:9-57
+40-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:30:19-54
+41        <activity android:name="com.serviingo.serviingo.Activity.FinancialServiceBank" />
+41-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:31:9-67
+41-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:31:19-64
+42        <activity android:name="com.serviingo.serviingo.Activity.FinancialServiceDetail" />
+42-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:32:9-69
+42-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:32:19-66
+43        <activity android:name="com.serviingo.serviingo.Activity.FinancialCategory" />
+43-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:33:9-64
+43-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:33:19-61
+44        <activity android:name="com.serviingo.serviingo.Activity.Addressbook" />
+44-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:34:9-58
+44-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:34:19-55
+45        <activity android:name="com.serviingo.serviingo.Activity.cancellationPolicy" />
+45-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:35:9-65
+45-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:35:19-62
+46        <activity android:name="com.serviingo.serviingo.Activity.TermsandCondition" />
+46-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:36:9-64
+46-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:36:19-61
+47        <activity android:name="com.serviingo.serviingo.Activity.servicesSubCategory" />
+47-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:37:9-66
+47-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:37:19-63
+48        <activity android:name="com.serviingo.serviingo.Activity.Privacypolicy" />
+48-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:38:9-60
+48-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:38:19-57
+49        <activity android:name="com.serviingo.serviingo.Activity.newActivity" />
+49-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:39:9-58
+49-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:39:19-55
+50        <activity android:name="com.serviingo.serviingo.Activity.ChangePasswordActivity" />
+50-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:40:9-69
+50-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:40:19-66
+51        <activity android:name="com.serviingo.serviingo.Activity.FAQ" />
+51-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:41:9-50
+51-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:41:19-47
+52        <activity android:name="com.serviingo.serviingo.Activity.covidTest" />
+52-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:42:9-56
+52-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:42:19-53
+53        <activity android:name="com.serviingo.serviingo.Activity.Success" />
+53-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:43:9-54
+53-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:43:19-51
+54        <activity android:name="com.serviingo.serviingo.Activity.CheckOut" />
+54-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:44:9-55
+54-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:44:19-52
+55        <activity android:name="com.serviingo.serviingo.Activity.AppliencesCareServices" />
+55-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:45:9-69
+55-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:45:19-66
+56        <activity android:name="com.serviingo.serviingo.Activity.MainActivity" />
+56-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:46:9-59
+56-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:46:19-56
+57        <activity android:name="com.serviingo.serviingo.Activity.VenderReg" />
+57-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:47:9-56
+57-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:47:19-53
+58        <activity android:name="com.serviingo.serviingo.Activity.ReviewRatingActivity" />
+58-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:48:9-67
+58-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:48:19-64
+59        <activity android:name="com.serviingo.serviingo.Activity.TestingAgreeCulturalUi" />
+59-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:49:9-69
+59-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:49:19-66
+60        <activity android:name="com.serviingo.serviingo.Activity.ProfileActivity" />
+60-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:50:9-62
+60-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:50:19-59
+61        <activity android:name="com.serviingo.serviingo.Activity.Auth.LoginActivity" />
+61-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:51:9-65
+61-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:51:19-62
+62        <activity android:name="com.serviingo.serviingo.Activity.ContactSupport" />
+62-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:52:9-61
+62-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:52:19-58
+63        <activity android:name="com.serviingo.serviingo.Activity.subCategoryActivities" />
+63-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:53:9-68
+63-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:53:19-65
+64        <activity android:name="com.serviingo.serviingo.Activity.RecentBooking" />
+64-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:54:9-60
+64-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:54:19-57
+65        <activity android:name="com.serviingo.serviingo.Activity.AboutUs" />
+65-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:55:9-54
+65-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:55:19-51
+66        <activity android:name="com.serviingo.serviingo.Activity.Auth.SignUpActivity" />
+66-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:56:9-66
+66-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:56:19-63
+67        <activity android:name="com.serviingo.serviingo.Activity.MyWalletActivity" />
+67-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:57:9-63
+67-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:57:19-60
+68        <activity android:name="com.serviingo.serviingo.Activity.WelcomeActivity" />
+68-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:58:9-62
+68-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:58:19-59
+69        <activity android:name="com.serviingo.serviingo.Activity.OTPactivity" />
+69-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:59:9-58
+69-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:59:19-55
+70        <activity android:name="com.serviingo.serviingo.Activity.primaryActivity" />
+70-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:60:9-62
+70-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:60:19-59
+71        <activity android:name="com.serviingo.serviingo.Activity.ChatActivity" />
+71-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:61:9-59
+71-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:61:19-56
+72        <activity android:name="com.serviingo.serviingo.Activity.Addones" />
+72-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:62:9-54
+72-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:62:19-51
+73        <activity android:name="com.serviingo.serviingo.Activity.ContactUsActivity" />
+73-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:63:9-64
+73-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:63:19-61
+74        <activity android:name="com.serviingo.serviingo.Activity.Lowcontact" />
+74-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:64:9-57
+74-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:64:19-54
+75        <activity android:name="com.serviingo.serviingo.Activity.SelectService" />
+75-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:65:9-60
+75-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:65:19-57
+76        <activity android:name="com.serviingo.serviingo.Activity.FinancialService" />
+76-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:66:9-63
+76-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:66:19-60
+77        <activity android:name="com.serviingo.serviingo.Activity.AddressActivity" />
+77-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:67:9-62
+77-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:67:19-59
+78        <activity android:name="com.serviingo.serviingo.Activity.Addtocart" />
+78-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:68:9-56
+78-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:68:19-53
+79        <activity android:name="com.serviingo.serviingo.Activity.RefundPolicy" />
+79-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:69:9-59
+79-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:69:19-56
+80        <activity android:name="com.serviingo.serviingo.Activity.SubcategoryActivity" />
+80-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:70:9-66
+80-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:70:19-63
+81        <activity android:name="com.serviingo.serviingo.Activity.Forgetpassword.SendOTP" />
+81-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:71:9-69
+81-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:71:19-66
+82        <activity android:name="com.serviingo.serviingo.Activity.Forgetpassword.CratePasswordActivity" />
+82-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:72:9-83
+82-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:72:19-80
+83        <activity android:name="com.serviingo.serviingo.Activity.SplashScreen" >
+83-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:73:9-79:20
+83-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:73:19-56
+84            <intent-filter>
+84-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:74:13-78:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:75:17-69
+85-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:75:25-66
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:77:17-77
+87-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:77:27-74
+88            </intent-filter>
+89        </activity>
+90
+91        <meta-data
+91-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:81:9-83:57
+92            android:name="preloaded_fonts"
+92-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:82:13-43
+93            android:resource="@array/preloaded_fonts" />
+93-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:83:13-54
+94
+95        <service
+95-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:85:9-92:19
+96            android:name="com.serviingo.serviingo.Firebasee.MyFirebaseService"
+96-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:86:13-56
+97            android:stopWithTask="false" >
+97-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:87:13-41
+98            <intent-filter>
+98-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:88:13-91:29
+99                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+99-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:89:17-78
+99-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:89:25-75
+100                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+100-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:90:17-80
+100-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:90:25-77
+101            </intent-filter>
+102        </service>
+103
+104        <activity
+104-->[com.karumi:dexter:6.2.1] C:\Users\Temz\.gradle\caches\transforms-3\a96ae01f77df2bdd6b797aaeb8e24476\transformed\jetified-dexter-6.2.1\AndroidManifest.xml:27:9-29:72
+105            android:name="com.karumi.dexter.DexterActivity"
+105-->[com.karumi:dexter:6.2.1] C:\Users\Temz\.gradle\caches\transforms-3\a96ae01f77df2bdd6b797aaeb8e24476\transformed\jetified-dexter-6.2.1\AndroidManifest.xml:28:13-60
+106            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+106-->[com.karumi:dexter:6.2.1] C:\Users\Temz\.gradle\caches\transforms-3\a96ae01f77df2bdd6b797aaeb8e24476\transformed\jetified-dexter-6.2.1\AndroidManifest.xml:29:13-69
+107
+108        <service
+108-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\Temz\.gradle\caches\transforms-3\74d1cef0ef9e3888afb57e3df207793a\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:15:9-21:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\Temz\.gradle\caches\transforms-3\74d1cef0ef9e3888afb57e3df207793a\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:16:13-84
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Temz\.gradle\caches\transforms-3\176ab7afb37a39804b0752042f22b43d\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\Temz\.gradle\caches\transforms-3\74d1cef0ef9e3888afb57e3df207793a\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:17:13-37
+112            <meta-data
+112-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\Temz\.gradle\caches\transforms-3\74d1cef0ef9e3888afb57e3df207793a\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:18:13-20:85
+113                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+113-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\Temz\.gradle\caches\transforms-3\74d1cef0ef9e3888afb57e3df207793a\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:19:17-115
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-crashlytics:18.2.3] C:\Users\Temz\.gradle\caches\transforms-3\74d1cef0ef9e3888afb57e3df207793a\transformed\jetified-firebase-crashlytics-18.2.3\AndroidManifest.xml:20:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+116                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-config:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\3c0305dc9305379891fd3edb7f9bb7b1\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:32:13-34:85
+119                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+119-->[com.google.firebase:firebase-config:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\3c0305dc9305379891fd3edb7f9bb7b1\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:33:17-117
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-config:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\3c0305dc9305379891fd3edb7f9bb7b1\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:34:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+122                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+122-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+124            <meta-data
+124-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\36e1036b7ff24e9612617f5ef4325630\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:30:13-32:85
+125                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+125-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\36e1036b7ff24e9612617f5ef4325630\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:31:17-139
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.android.gms:play-services-measurement-api:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\36e1036b7ff24e9612617f5ef4325630\transformed\jetified-play-services-measurement-api-19.0.2\AndroidManifest.xml:32:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\Temz\.gradle\caches\transforms-3\5d8c1f4c14e1b2521a589403c2aa9fa7\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:13:13-15:85
+128                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+128-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\Temz\.gradle\caches\transforms-3\5d8c1f4c14e1b2521a589403c2aa9fa7\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:14:17-109
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\Temz\.gradle\caches\transforms-3\5d8c1f4c14e1b2521a589403c2aa9fa7\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:15:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Temz\.gradle\caches\transforms-3\41752e6b9ef9d3dfeba9d03f42d10a98\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+131                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+131-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Temz\.gradle\caches\transforms-3\41752e6b9ef9d3dfeba9d03f42d10a98\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Temz\.gradle\caches\transforms-3\41752e6b9ef9d3dfeba9d03f42d10a98\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Temz\.gradle\caches\transforms-3\a6b270645c0c5895c1da341e3034fdac\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+134                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+134-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Temz\.gradle\caches\transforms-3\a6b270645c0c5895c1da341e3034fdac\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Temz\.gradle\caches\transforms-3\a6b270645c0c5895c1da341e3034fdac\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+136        </service>
+137
+138        <provider
+138-->[com.squareup.picasso:picasso:2.71828] C:\Users\Temz\.gradle\caches\transforms-3\5c4f20be0c39dec51d81b7031788ed79\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+139            android:name="com.squareup.picasso.PicassoProvider"
+139-->[com.squareup.picasso:picasso:2.71828] C:\Users\Temz\.gradle\caches\transforms-3\5c4f20be0c39dec51d81b7031788ed79\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+140            android:authorities="com.serviingo.serviingo.com.squareup.picasso"
+140-->[com.squareup.picasso:picasso:2.71828] C:\Users\Temz\.gradle\caches\transforms-3\5c4f20be0c39dec51d81b7031788ed79\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+141            android:exported="false" />
+141-->[com.squareup.picasso:picasso:2.71828] C:\Users\Temz\.gradle\caches\transforms-3\5c4f20be0c39dec51d81b7031788ed79\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+142
+143        <activity
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+144            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+145            android:excludeFromRecents="true"
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+146            android:exported="true"
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+147            android:launchMode="singleTask"
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+149            <intent-filter>
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+150                <action android:name="android.intent.action.VIEW" />
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+151
+152                <category android:name="android.intent.category.DEFAULT" />
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+153                <category android:name="android.intent.category.BROWSABLE" />
+153-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+153-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+154
+155                <data
+155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+156                    android:host="firebase.auth"
+156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+157                    android:path="/"
+157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+158                    android:scheme="genericidp" />
+158-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+159            </intent-filter>
+160        </activity>
+161        <activity
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+162            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+163            android:excludeFromRecents="true"
+163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+164            android:exported="true"
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+165            android:launchMode="singleTask"
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+166-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+167            <intent-filter>
+167-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+168                <action android:name="android.intent.action.VIEW" />
+168-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+168-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+169
+170                <category android:name="android.intent.category.DEFAULT" />
+170-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+170-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+171                <category android:name="android.intent.category.BROWSABLE" />
+171-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+171-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+172
+173                <data
+173-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+174                    android:host="firebase.auth"
+174-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+175                    android:path="/"
+175-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+176                    android:scheme="recaptcha" />
+176-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+177            </intent-filter>
+178        </activity>
+179
+180        <service
+180-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+181            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+181-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+182            android:enabled="true"
+182-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+183            android:exported="false" >
+183-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+184            <intent-filter>
+184-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+185                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+185-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+185-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+186
+187                <category android:name="android.intent.category.DEFAULT" />
+187-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+187-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+188            </intent-filter>
+189        </service>
+190
+191        <activity
+191-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+192            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+192-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+193            android:excludeFromRecents="true"
+193-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+196        <!--
+197            Service handling Google Sign-In user revocation. For apps that do not integrate with
+198            Google Sign-In, this service will never be started.
+199        -->
+200        <service
+200-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+201            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+201-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+202            android:exported="true"
+202-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+203            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+203-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+204            android:visibleToInstantApps="true" />
+204-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Temz\.gradle\caches\transforms-3\69e8628ebb7f1289b73d205b63a80e09\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+205
+206        <activity
+206-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Temz\.gradle\caches\transforms-3\00d8c41593f4cb0ab93d0b8fc2890023\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+207            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+207-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Temz\.gradle\caches\transforms-3\00d8c41593f4cb0ab93d0b8fc2890023\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Temz\.gradle\caches\transforms-3\00d8c41593f4cb0ab93d0b8fc2890023\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+209-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Temz\.gradle\caches\transforms-3\00d8c41593f4cb0ab93d0b8fc2890023\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+210
+211        <receiver
+211-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+212            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+212-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+213            android:exported="true"
+213-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+214            android:permission="com.google.android.c2dm.permission.SEND" >
+214-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+215            <intent-filter>
+215-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+216                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+216-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+216-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+217            </intent-filter>
+218        </receiver>
+219        <!--
+220             FirebaseMessagingService performs security checks at runtime,
+221             but set to not exported to explicitly avoid allowing another app to call it.
+222        -->
+223        <service
+223-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+224            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+224-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+225            android:directBootAware="true"
+225-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+226            android:exported="false" >
+226-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+227            <intent-filter android:priority="-500" >
+227-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:45:13-47:29
+227-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Temz\.gradle\caches\transforms-3\90da9d6838c098b2cf7fb89ae5e98fbd\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:45:28-51
+228                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+228-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:89:17-78
+228-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:89:25-75
+229            </intent-filter>
+230        </service>
+231
+232        <receiver
+232-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:29:9-33:20
+233            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+233-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:30:13-85
+234            android:enabled="true"
+234-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:31:13-35
+235            android:exported="false" >
+235-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:32:13-37
+236        </receiver>
+237
+238        <service
+238-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:35:9-38:40
+239            android:name="com.google.android.gms.measurement.AppMeasurementService"
+239-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:36:13-84
+240            android:enabled="true"
+240-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:37:13-35
+241            android:exported="false" />
+241-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:38:13-37
+242        <service
+242-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:39:9-43:72
+243            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+243-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:40:13-87
+244            android:enabled="true"
+244-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:41:13-35
+245            android:exported="false"
+245-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:42:13-37
+246            android:permission="android.permission.BIND_JOB_SERVICE" />
+246-->[com.google.android.gms:play-services-measurement:19.0.2] C:\Users\Temz\.gradle\caches\transforms-3\3b7ae4333983b4614ce834d65f9bd8ab\transformed\jetified-play-services-measurement-19.0.2\AndroidManifest.xml:43:13-69
+247
+248        <provider
+248-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Temz\.gradle\caches\transforms-3\176ab7afb37a39804b0752042f22b43d\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+249            android:name="com.google.firebase.provider.FirebaseInitProvider"
+249-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Temz\.gradle\caches\transforms-3\176ab7afb37a39804b0752042f22b43d\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+250            android:authorities="com.serviingo.serviingo.firebaseinitprovider"
+250-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Temz\.gradle\caches\transforms-3\176ab7afb37a39804b0752042f22b43d\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+251            android:directBootAware="true"
+251-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Temz\.gradle\caches\transforms-3\176ab7afb37a39804b0752042f22b43d\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+252            android:exported="false"
+252-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Temz\.gradle\caches\transforms-3\176ab7afb37a39804b0752042f22b43d\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+253            android:initOrder="100" />
+253-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Temz\.gradle\caches\transforms-3\176ab7afb37a39804b0752042f22b43d\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+254
+255        <meta-data
+255-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Temz\.gradle\caches\transforms-3\91277f3fc54f64a858f5d7ce95207f24\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+256            android:name="com.google.android.gms.version"
+256-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Temz\.gradle\caches\transforms-3\91277f3fc54f64a858f5d7ce95207f24\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+257            android:value="@integer/google_play_services_version" />
+257-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\Temz\.gradle\caches\transforms-3\91277f3fc54f64a858f5d7ce95207f24\transformed\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+258
+259        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+259-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:12:9-16:20
+259-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:12:19-63
+260            <intent-filter>
+260-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:13:13-15:29
+261                <action android:name="rzp.device_token.share" />
+261-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:14:17-65
+261-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:14:25-62
+262            </intent-filter>
+263        </receiver>
+264
+265        <activity
+265-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:18:9-29:20
+266            android:name="com.razorpay.CheckoutActivity"
+266-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:19:13-57
+267            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+267-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:20:13-83
+268            android:theme="@style/CheckoutTheme" >
+268-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:21:13-49
+269            <intent-filter>
+269-->[com.razorpay:checkout:1.5.16] C:\Users\Temz\.gradle\caches\transforms-3\973857d42202e9ffb9e9de596b4514bb\transformed\jetified-checkout-1.5.16\AndroidManifest.xml:22:13-28:29
+270                <action android:name="android.intent.action.MAIN" />
+270-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:75:17-69
+270-->E:\Android sourcecode\webmingo\Servingo-devender\app\src\main\AndroidManifest.xml:75:25-66
+271
+272                <data
+272-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+273                    android:host="rzp.io"
+273-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+274                    android:scheme="io.rzp" />
+274-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Temz\.gradle\caches\transforms-3\d03561463e242332270464d32b4606a7\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+275            </intent-filter>
+276        </activity>
+277
+278        <service
+278-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Temz\.gradle\caches\transforms-3\d01e20c75edf96e58244dddd68827ab0\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+279            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+279-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Temz\.gradle\caches\transforms-3\d01e20c75edf96e58244dddd68827ab0\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+280            android:exported="false" >
+280-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Temz\.gradle\caches\transforms-3\d01e20c75edf96e58244dddd68827ab0\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+281            <meta-data
+281-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Temz\.gradle\caches\transforms-3\d01e20c75edf96e58244dddd68827ab0\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+282                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+282-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Temz\.gradle\caches\transforms-3\d01e20c75edf96e58244dddd68827ab0\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+283                android:value="cct" />
+283-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Temz\.gradle\caches\transforms-3\d01e20c75edf96e58244dddd68827ab0\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+284        </service>
+285        <service
+285-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\Temz\.gradle\caches\transforms-3\6c057ec6e30fa0391786a298a2b956c9\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:26:9-30:19
+286            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+286-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\Temz\.gradle\caches\transforms-3\6c057ec6e30fa0391786a298a2b956c9\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:27:13-117
+287            android:exported="false"
+287-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\Temz\.gradle\caches\transforms-3\6c057ec6e30fa0391786a298a2b956c9\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:28:13-37
+288            android:permission="android.permission.BIND_JOB_SERVICE" >
+288-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\Temz\.gradle\caches\transforms-3\6c057ec6e30fa0391786a298a2b956c9\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:29:13-69
+289        </service>
+290
+291        <receiver
+291-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\Temz\.gradle\caches\transforms-3\6c057ec6e30fa0391786a298a2b956c9\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:32:9-34:40
+292            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+292-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\Temz\.gradle\caches\transforms-3\6c057ec6e30fa0391786a298a2b956c9\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:33:13-132
+293            android:exported="false" />
+293-->[com.google.android.datatransport:transport-runtime:3.0.1] C:\Users\Temz\.gradle\caches\transforms-3\6c057ec6e30fa0391786a298a2b956c9\transformed\jetified-transport-runtime-3.0.1\AndroidManifest.xml:34:13-37
+294    </application>
+295
+296</manifest>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="34dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_close_foreground" />
+
+        <TextView
+
+            android:id="@+id/tv_name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Refund Process Details"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp" />
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_below="@+id/tv_name"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="#cbcbcb" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_4sdp">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Payment Method	"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:id="@+id/remarkTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:justificationMode="inter_word"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/dateandtimeTv"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="#cbcbcb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_4sdp">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Transaction Date	"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:id="@+id/tvWithdrawlMoney"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto"
+                    android:padding="@dimen/_4sdp"
+                    android:text=" "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/dateandtimeTv"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="#cbcbcb" />
+
+            <LinearLayout
+                android:id="@+id/ll_top"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_4sdp">
+
+                <TextView
+                    android:id="@+id/utrText"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="UTR Number	"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:id="@+id/withdrawalTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto"
+                    android:padding="@dimen/_4sdp"
+                    android:text="None"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/dateandtimeTv"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="#cbcbcb" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_4sdp">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Receipt "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:id="@+id/tv_cancelOrder"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:background="@drawable/green_bg"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:text="View Receipt"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

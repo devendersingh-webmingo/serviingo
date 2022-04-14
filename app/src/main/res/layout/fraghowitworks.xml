@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvHowitworks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="bottom"
+        android:paddingLeft="@dimen/_15sdp"
+        android:text=" "
+        android:textColor="@color/valueContent"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/grey_light" />
+   <!-- <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/headingRecy"
+        android:layout_width="match_parent"
+        tools:itemCount="3"
+        tools:listitem="@layout/howitworking"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:padding="10dp" />
+
+
+</LinearLayout>

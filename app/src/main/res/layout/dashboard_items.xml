@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_marginBottom="@dimen/_20sdp"
+    android:background="@color/white"
+    android:padding="@dimen/_10sdp"
+    android:paddingLeft="@dimen/_10sdp"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingRight="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_12sdp"
+    app:cardElevation="@dimen/_12sdp"
+    app:contentPadding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/tv_datee"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="left"
+                android:text="Special Chicken"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+
+            <TextView
+
+                android:id="@+id/tv_datee"
+                android:layout_marginRight="@dimen/_5sdp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/roboto"
+                android:gravity="left"
+                android:text="5689055678"
+                android:textColor="#333333"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/tv_date"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_datee"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/roboto"
+                android:gravity="left"
+
+                android:text="28-Dec-2020 12:40 PM"
+                android:textColor="#757575"
+                android:textSize="@dimen/_10sdp" />
+
+            <TextView
+                android:layout_margin="@dimen/_2sdp"
+                android:id="@+id/tv_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_date"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="\u20B9 275"
+                android:textColor="@color/black_text"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_itemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recyclerbooking"
+                android:fontFamily="@font/roboto"
+                android:gravity="left"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+              />
+
+            <TextView
+                android:id="@+id/tv_orderDetail"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_below="@id/servetimeLL"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/allsideborder2"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Order Details"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/tv_cancelOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_below="@id/tv_pending"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/rect_light_blue"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Cancel/Reschedule Order"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+
+
+            <!-- <TextView
+                 android:id="@+id/tv_rating"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight=".5"
+                 android:fontFamily="@font/roboto_bold"
+                 android:gravity="center"
+                 android:text="\u20B9 275"
+                 android:textColor="@color/black_text"
+                 android:textSize="@dimen/_14sdp"
+                 android:textStyle="bold" />-->
+
+            <TextView
+                android:padding="@dimen/_5sdp"
+                android:id="@+id/tv_pending"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/servetimeLL"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/allsideborder2"
+
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Cancel Order"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_10sdp"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/tv_addOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="left"
+                android:text="Add On Services"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="gone" />
+
+            <!--
+                        <TextView
+                            android:visibility="invisible"
+
+                            android:id="@+id/tv_addOnDetail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_addOn"
+                            android:fontFamily="@font/roboto"
+                            android:gravity="left"
+                            android:paddingTop="@dimen/_2sdp"
+                            android:text="Special Chicken"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+            -->
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:id="@+id/recyclerbooking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/tv_rating"
+
+
+                tools:itemCount="2"
+                tools:listitem="@layout/layoutadonseorder" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/recyclerbooking"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="#dbdbdb" />
+
+            <LinearLayout
+                android:id="@+id/servetimeLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/view"
+                android:layout_margin="@dimen/_2sdp"
+                android:orientation="vertical"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_2sdp"
+
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto_bold"
+                            android:gravity="left"
+                            android:text="@string/serve_date_time"
+                            android:textColor="#CC000000"
+                            android:textSize="@dimen/_12sdp" />
+
+
+                        <TextView
+                            android:id="@+id/serve_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_name"
+                            android:fontFamily="@font/roboto"
+                            android:gravity="left"
+                            android:text="04-Sep-2021"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/Serve_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_name"
+                            android:fontFamily="@font/roboto"
+                            android:gravity="left"
+                            android:text="12:30 PM"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/PartnerLL"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+
+                        android:gravity="right"
+                        android:orientation="horizontal"
+
+                       >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="vertical"
+                           >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:fontFamily="@font/roboto_bold"
+                                android:gravity="left"
+                                android:text="Partner Information"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_10sdp" />
+
+
+                            <TextView
+                                android:id="@+id/PartnerNameTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_below="@id/tv_name"
+                                android:layout_marginTop="4dp"
+                                android:drawableRight="@drawable/ic_phone"
+                                android:gravity="left"
+                                android:text="New | 9792315669"
+                                android:maxLines="2"
+                                android:textColor="#B3000000"
+                                android:textSize="@dimen/_8sdp" />
+
+
+                            <TextView
+                                android:id="@+id/VaccinatedTv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="vaccinated Yes"
+                                android:textColor="#B3000000"
+                                android:textSize="@dimen/_8sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/_3sdp"
+
+                            android:gravity="center"
+
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/PartnerImage"
+                                android:layout_width="@dimen/_35sdp"
+                                android:layout_height="@dimen/_45sdp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/nofound" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/recyclerbooking"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:background="#dbdbdb" />
+
+                <LinearLayout
+                    android:id="@+id/paymentstatusLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_2sdp"
+
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_2sdp"
+
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:id="@+id/pymtnymethod"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="left"
+                            android:text="Payment Method"
+                            android:textColor="#F2000000"
+                            android:textSize="@dimen/_10sdp" />
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/pymtnystaus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:text="Payment Status"
+                                android:textColor="@color/green"
+                                android:textSize="@dimen/_10sdp" />
+                            <ImageView
+                                android:visibility="gone"
+                                android:id="@+id/paymenticonIV"
+                                android:layout_width="20dp"
+                                android:src="@drawable/ic_info"
+                                android:layout_height="20dp"
+                                app:tint="@color/green" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_2sdp"
+
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:visibility="gone"
+                            android:layout_gravity="right"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingRight="@dimen/_5sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:id="@+id/paynowTv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_10sdp"
+                            android:background="@drawable/rect_light_blue"
+
+                            android:fontFamily="@font/roboto"
+                            android:text="Pay Now"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:visibility="gone"
+                            android:layout_gravity="right"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:id="@+id/RePaymentTV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_12sdp"
+                            android:background="@drawable/green_bg"
+
+                            android:fontFamily="@font/roboto"
+                            android:text="Retry Payment"
+                            android:textColor="@color/white"
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

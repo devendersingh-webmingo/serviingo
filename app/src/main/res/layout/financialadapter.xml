@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:padding="@dimen/_8sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="@dimen/_8sdp"
+    app:contentPadding="5dp">
+
+
+    <RelativeLayout
+        android:id="@+id/clickRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/ivimageone"
+            android:layout_width="@dimen/_160sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/nofound" />
+
+        <TextView
+            android:id="@+id/tvSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivimageone"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_5sdp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Daal - \u20B9 81"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/_13sdp" />
+
+
+        <!--   <ImageView
+               android:id="@+id/checkbox"
+               android:visibility="visible"
+               android:layout_width="@dimen/_20sdp"
+               android:layout_height="@dimen/_20sdp"
+               android:src="@drawable/ic_checked__1_" />
+
+           <ImageView
+               android:id="@+id/unCheck"
+               android:visibility="gone"
+               android:layout_width="@dimen/_20sdp"
+               android:layout_height="@dimen/_20sdp"
+               android:src="@drawable/uncheck" />-->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

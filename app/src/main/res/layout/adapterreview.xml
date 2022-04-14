@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardBackgroundColor="@color/white"
+
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_5sdp"
+ >
+
+
+    <LinearLayout
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivImages"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_alignParentLeft="true"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/unnamed" />
+
+            <TextView
+                android:id="@+id/choosefile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/ivImages"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text=" "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/addressTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choosefile"
+                android:layout_toRightOf="@+id/ivImages"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text=" "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            <LinearLayout
+                android:id="@+id/LLrevive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+
+                android:layout_below="@+id/addressTV"
+                android:layout_toRightOf="@+id/ivImages"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/star"
+                    app:tint="#009609" />
+
+                <TextView
+                    android:id="@+id/tvdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text=" 5.0 "
+                    android:textColor="#009609"
+                    android:textSize="@dimen/_15sdp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/newText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LLrevive"
+                android:layout_toRightOf="@+id/ivImages"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="She's wonderful. ."
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="#4D171212" />
+        <!-- <View
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />-->
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grey_border_box"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="34dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_close_foreground" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:text="Are you sure?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+
+        <TextView
+            android:id="@+id/descTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/roboto"
+            android:paddingRight="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Delete this Rating &amp; Review."
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/_18sdp" />
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvDelete"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:background="@drawable/reddrawable"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvCancel"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_alignParentLeft="true"
+
+                android:background="@drawable/sky_blue_bg"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

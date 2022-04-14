@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/allsideborder"
+    android:padding="@dimen/_2sdp"
+
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/allsideborder"
+        android:fontFamily="@font/roboto_bold"
+        android:padding="@dimen/_15sdp"
+        android:text="Payment History"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp">
+
+    </TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#fafafa"
+
+
+        android:padding="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingRight="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_12sdp"
+        app:cardElevation="@dimen/_12sdp"
+        app:contentPadding="5dp">
+
+        <LinearLayout
+            android:background="#FAFAFA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/ll_top"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Date of Purchase"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto_bold"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Amount"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/purchecdateTV"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="01-07-2021"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/AmountTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="01-07-2021"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Membership"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto_bold"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Validity"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/membershipTv"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Basic"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/validTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="3 Months"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Expiry Date"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/roboto_bold"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Benefits Upto"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/expirydateTv"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Basic"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_13sdp" />
+
+                <TextView
+                    android:id="@+id/Benifittv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="\u20B9 799"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_4sdp">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="left"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Membership Status"
+                    android:textColor="#323232"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:id="@+id/tv_cancelOrder"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:background="@drawable/green_bg"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:text="Active"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

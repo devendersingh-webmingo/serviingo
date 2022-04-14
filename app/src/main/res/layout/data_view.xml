@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/packae"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/allui"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="@dimen/_10sdp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="@dimen/_5sdp"
+        app:contentPadding="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/allsideborder"
+            android:padding="@dimen/_10sdp">
+
+            <LinearLayout
+                android:id="@+id/Lliner"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/roolon" />
+
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+
+                    app:autoPlay="false"
+                    app:showSeekBar="true"
+                    app:showVideoDuration="true"
+                    app:showVideoCurrentTime="true"
+                    app:showFullScreenButton="true" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvwallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Lliner"
+                android:layout_margin="@dimen/_10sdp"
+                android:fontFamily="@font/teko_semibold"
+                android:text="Low Contact on Roll Vaxing"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvwallet"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:text=" 0,0 ratings"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_toRightOf="@+id/tvdate"
+                android:padding="@dimen/_2sdp"
+                android:id="@+id/ll"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/tvwallet"
+
+                android:layout_height="wrap_content"
+                android:background="@drawable/color_border_primary"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/updateCartDecrease"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_cart_minus"
+                    app:tint="@color/heading_subCate" />
+
+                <TextView
+                    android:id="@+id/quentityTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/updateCartIncrease"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_cart_plus"
+                    app:tint="@color/heading_subCate" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvdate"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:text="  \u20A8 555 "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCutPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvdate"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_toRightOf="@+id/tvPrice"
+                android:text=" \u20A8 446"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMainPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvdate"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_toRightOf="@+id/tvCutPrice"
+                android:text=" 10% off"
+                android:textColor="@color/green"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvgreen"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_below="@+id/tvwallet"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@color/heading_subCate"
+                android:fontFamily="@font/telex"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:text="Add to Cart"
+                android:textColor="@color/white"
+                 />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/tvgreen"
+                android:background="@color/grey_light" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view"
+                android:drawableLeft="@drawable/dot_background"
+                android:drawableTint="@color/black"
+                android:padding="@dimen/_10sdp"
+                android:text="Roll on the waxing: Rica vice choclate role on vax(Full Arm,Full Leg,Facial Hair removal Eyebrow Threading,upper lips Threading"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:padding="@dimen/_10sdp"
+                android:text="View Details >"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

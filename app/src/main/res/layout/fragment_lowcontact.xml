@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".Fragments.LowcontactFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/relrecy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@+id/root_lay"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:id="@+id/iv_lefyt"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleX=".6"
+            android:visibility="gone"
+            android:scaleY=".6"
+            android:src="@drawable/ic_left_arrow_in_circular_button" />
+
+        <ImageView
+            android:id="@+id/iv_ryt"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:scaleX=".6"
+            android:scaleY=".6"
+            android:src="@drawable/ic_chevron_sign_to_right" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/horizontalrecy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_centerInParent="true"
+            android:paddingLeft="@dimen/_25sdp"
+            android:paddingRight="@dimen/_25sdp"
+            tools:itemCount="3"
+            tools:listitem="@layout/horizontal_packages" />
+
+    </RelativeLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relrecy"
+        android:layout_above="@id/makeYourpackage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/LLPackage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@id/rl_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_below="@+id/root_lay"
+                    android:background="@color/head_lightBlue">
+
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/iv_arrow"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:src="@drawable/ic_right_white" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tv_Package"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_toRightOf="@id/iv_arrow"
+                        android:background="@color/head_lightBlue"
+                        android:fontFamily="@font/roboto"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:text="Make your Package >>"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_16sdp" />
+
+
+                    <TextView
+                        android:id="@+id/tvHeading"
+                        android:gravity="center"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_toRightOf="@id/tv_Package"
+                        android:fontFamily="@font/roboto_bold"
+                        android:padding="@dimen/_5sdp"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/verticalrecy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+
+                    android:layout_margin="@dimen/_3sdp"
+                    tools:itemCount="1"
+                    tools:listitem="@layout/data_vieww" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:visibility="gone"
+                    android:id="@+id/verticalDeals"
+                    android:layout_width="match_parent"
+                    tools:itemCount="1"
+                    tools:listitem="@layout/data_vieww"
+
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="@dimen/_3sdp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+
+                android:id="@+id/LLEditPakage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/head_lightBlue"
+                    android:fontFamily="@font/roboto_bold"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Make your Package"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/allui"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="@dimen/_10sdp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="@dimen/_5sdp"
+                    app:contentPadding="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/allsideborder"
+                        android:padding="@dimen/_10sdp">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="@dimen/_250sdp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/notfound" />
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:layout_below="@+id/tvwallet"
+                            android:background="@color/grey_light" />
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:fontFamily="@font/teko_semibold"
+                            android:text="Low Contact on Roll Vaxing"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp"
+
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/descTv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/title"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text=" 0,0 ratings"
+                            android:textColor="@color/grey_l"
+                           />
+
+
+                        <TextView
+
+                            android:id="@+id/Editthis_Package"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_below="@+id/descTv"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="@color/green"
+                            android:fontFamily="@font/telex"
+                            android:gravity="center"
+                            android:padding="@dimen/_10sdp"
+                            android:text="Edit this Package"
+                            android:textColor="@color/white" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/makeYourpackage"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/_5sdp"
+
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="@color/head_lightBlue"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_12sdp"
+        app:contentPadding="5dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:text="Make Your Own Package"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/deals"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:cardBackgroundColor="@color/head_lightBlue"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="@dimen/_12sdp"
+        app:contentPadding="5dp">
+
+        <TextView
+            android:layout_margin="@dimen/_10sdp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Deals"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

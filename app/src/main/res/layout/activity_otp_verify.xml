@@ -1,0 +1,138 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#CCF6F6F6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:background="#CCF6F6F6"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:gravity="center|bottom"
+            android:text="Please enter your verification code."
+            android:textColor="#02426e"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:padding="@dimen/_2sdp"
+            android:text="We have sent a verification code to your registered mobile number."
+            android:textAlignment="center"
+            android:textColor="@color/grey_l"
+            android:textSize="@dimen/_15sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            android:padding="@dimen/_5sdp">
+
+
+            <com.chaos.view.PinView
+                android:id="@+id/pinview"
+                style="@style/PinWidget.PinView"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:inputType="number"
+                android:itemBackground="@color/grey"
+                app:cursorColor="@color/black"
+                app:hideLineWhenFilled="true"
+                app:itemCount="4"
+                app:itemHeight="@dimen/_44sdp"
+                app:itemRadius="5dp"
+                app:itemWidth="@dimen/_44sdp"
+                app:lineColor="@color/textColor_blue"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/otpverifying"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/rect_light_blue"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Submit Now"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/resendotp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:padding="@dimen/_5sdp"
+            android:text="Resend"
+            android:textColor="#0088ff"
+            android:textSize="@dimen/_15sdp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:text="I want to login using my  "
+                android:textColor="@color/purple_700"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:id="@+id/passwordlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:text="Password"
+                android:textColor="#0088ff"
+                android:textSize="@dimen/_15sdp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
